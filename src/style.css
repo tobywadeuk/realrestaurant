@@ -1,0 +1,41 @@
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.contentdiv{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh;
+
+    color:#4E944F;
+    font-size: 36px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+.buttonDiv{
+    width: 100vw;
+    display: flex;
+    justify-content: space-Evenly;
+}
+
+button{
+    background-color: #E9EFC0;
+    border: #4E944F solid 1px;
+    color: #4E944F;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+:root{
+    background-color: #E9EFC0;
+}
